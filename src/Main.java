@@ -8,6 +8,10 @@ public class Main {
         triangulo.calcularBaricentro();
         triangulo.calcularDistancias();
 
+        Circulo circulo = new Circulo(triangulo);
+        double areaCirculo = circulo.obtenerArea();
+        System.out.println("El área del circulo es: "+areaCirculo);
+
 
     }
 }
